@@ -1,0 +1,112 @@
+/* Get the open source fonts from GOOGLE FONTS API */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* HEADINGS */
+h1, h2, h3, h4, h5, h6 {
+    padding: 5px;;
+    margin: 0;
+}
+/* // HEADINGS // */
+
+/* ANCHORS */
+a {
+    text-decoration: none;
+    color: gray;
+}
+/* // ANCHORS // */
+
+/* NAVIGATION */
+nav {
+    background: whitesmoke;
+    opacity: 0.9;
+    line-height: 30px;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+}
+
+nav div {
+    display: inline;
+}
+
+nav .ui.nav-branding {
+    font-size: 30px;
+    line-height: inherit;
+    float: middle;
+}
+
+nav .ui.nav-branding a {
+    color: black;
+}
+
+nav .ui.nav-menu {
+    font-size: 15px;
+    line-height: inherit;
+    float: middle;
+}
+
+nav .ui.nav-menu a {
+    color: black;
+}
+/* // NAVIGATION // */
+
+/* IMAGE */
+img.wide-img {
+    width: 100%;
+}
+/* // IMAGE // */
+
+/* BUTTON */
+button {
+    border: none;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0px 1.5px 0 gray, 0 2.5px 10px 0px gray;
+}
+
+.ui.error-btn {
+    background-color: red;
+}
+
+.ui.warning-btn {
+    background-color: yellow;
+}
+
+.ui.success-btn {
+    background-color: rgb(50, 220, 50);
+}
+/* // BUTTON // */
+
+.ui.xs-pad {
+    padding: 2.5px;
+}
+
+.ui.s-pad {
+    padding: 5px;
+}
+
+.ui.m-pad {
+    padding: 10px;
+}
+
+.ui.l-pad {
+    padding: 20px;
+}
+
+.ui.xl-pad {
+    padding: 40px;
+}
+
+.ui.box {
+    border: 1px solid gray;
+    padding: 5px;
+    box-sizing: border-box;
+}
